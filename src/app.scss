@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+    font-weight: lighter;
+    color: #676fa3;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: url(./assets/space-4000.jpg);     
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+  }
+  
+  .App {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    min-height: 1000vh;
+  }
+  
+  textarea:focus,
+  input:focus {
+    outline: none;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: rgb(140, 140, 140);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(80, 80, 80);
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(120, 120, 120);
+  }
+
+  @media screen and (max-width: 1440px) {
+    body {
+      background: url(./assets/space-1440.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-color: #464646;
+      
+    }
+  }
