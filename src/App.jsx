@@ -1,9 +1,31 @@
+import { useState } from 'react';
 import './app.scss';
+import About from './components/About/About';
+import Home from './components/Home/Home';
+import Navbar from './components/Navbar/Navbar';
+import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
+import { planet1, astraunaut } from './const/index';
 
 function App() {
+
+  const [burger, setBurger] = useState(false)
+
+  const toggleBurger = () => {
+    setBurger(!burger)
+  }
+
   return (
     <div className="App">
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad culpa ratione ea tempore inventore ipsam accusamus suscipit, similique obcaecati sed quod voluptatibus. Obcaecati placeat neque sed adipisci nisi atque, totam provident, quod sit pariatur beatae dolorum sunt eum non quasi facilis voluptatum aliquam minus accusamus? Et consequatur omnis odio quo dolorum voluptates optio neque, architecto repudiandae consequuntur excepturi dignissimos possimus quae ad aperiam rem nihil aliquam, corrupti animi id fuga alias ullam! Numquam voluptate sit exercitationem? Necessitatibus recusandae ullam laborum magni ducimus non. Quidem ipsa architecto assumenda consectetur odit blanditiis maiores id explicabo? Unde suscipit corrupti ipsam dolor quibusdam harum. </p>
+      <Navbar burger={burger} toggleBurger={toggleBurger} />
+      <div onClick={() => setBurger(false)} className="main">
+        <img className='planet1' src={planet1} alt="planet" />
+        <img className='astraunaut' src={astraunaut} alt="astraunaut" />
+        <Home/>
+        <About/>
+        <Skills/>
+        {/* <Projects/> */}
+      </div>
     </div>
   );
 }

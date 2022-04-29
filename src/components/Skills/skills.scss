@@ -1,0 +1,166 @@
+.skills {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    margin: 100px 0;
+    margin-top: 150px;
+
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 60px;
+    }
+}
+
+.skills__technologies {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1.5rem;
+    justify-items: center;
+    align-items: center;
+    width: 900px;
+}
+
+.skills__tech {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    &:hover span {
+        opacity: 1;
+    }
+
+    img {
+        height: 110px;
+        transition: all ease 0.5s;
+        cursor: pointer;
+        &:hover {
+            transform: scale(0.85);
+            opacity: 0.93;
+          }
+    }
+    span {
+        margin: 7px 0 0 0;
+        font-size: 1.1rem;
+        font-weight: bolder;
+        opacity: 0;
+        transition: all ease 0.5s;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .skills {
+        h1 {
+            font-size: 3.7rem;
+        }
+    }
+    .skills__technologies {
+        width: 800px;
+    }
+    .skills__tech {
+        img {
+            height: 105px;
+        }
+        span {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .skills {
+        margin: 50px 0;
+    }
+    .skills__technologies {
+        grid-template-columns: repeat(3, 1fr);
+        width: 600px;
+        img {
+            height: 100px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .skills {
+        h1 {
+            font-size: 3.2rem;
+        }
+    }
+    .skills__technologies {
+        width: 450px;
+        img {
+            height: 90px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .skills__technologies {
+        width: 400px;
+        img {
+            height: 80px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .skills {
+        h1 {
+            font-size: 2.7rem;
+        }
+    }
+    .skills__technologies {
+        width: 330px;
+        img {
+            height: 70px;
+        }
+        span {
+            font-size: 1rem
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .skills {
+        h1 {
+            font-size: 2.4rem;
+        }
+    }
+    .skills__technologies {
+        width: 300px;
+        img {
+            height: 65px;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .skills {
+        h1 {
+            font-size: 2.3rem;
+        }
+    }
+    .skills__technologies {
+        width: 280px;
+        img {
+            height: 65px;
+        }
+        span {
+            font-size: 0.9rem
+        }
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .skills {
+        h1 {
+            font-size: 2.1rem;
+        }
+    }
+    .skills__technologies {
+        width: 270px;
+        img {
+            height: 60px;
+        }
+    }
+}
