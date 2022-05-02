@@ -21,9 +21,9 @@ const Navbar = ({burger, toggleBurger}) => {
           unmountOnExit
         >
           <div className='navbar__list'>
-            <span onClick={onBurgerChange}>Work</span>
             <span onClick={onBurgerChange}>About</span>
             <span onClick={onBurgerChange}>Skills</span>
+            <span onClick={onBurgerChange}>Work</span>
             <span onClick={onBurgerChange}>Resume</span>
             <span className='navbar__highlight' onClick={onBurgerChange}>Contact</span>
             <div className="navbar__links">

@@ -3,7 +3,8 @@ import './app.scss';
 import About from './components/About/About';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
-import Projects from './components/Projects/Projects';
+import Works from './components/Work/Works';
+// import Work from './components/Work/hmm';
 import Skills from './components/Skills/Skills';
 import { planet1, astraunaut } from './const/index';
 
@@ -24,7 +25,7 @@ function App() {
         <Home/>
         <About/>
         <Skills/>
-        {/* <Projects/> */}
+        <Works/>
       </div>
     </div>
   );

@@ -13,6 +13,11 @@ export { default as sass } from '../assets/sass-logo.png'
 export { default as react } from '../assets/react-logo.png'
 export { default as postgres } from '../assets/postgre-logo.png'
 export { default as git } from '../assets/git-logo.png'
+export { default as project2 } from '../assets/project-1.PNG'
+export { default as project22 } from '../assets/project-1(2).PNG'
+export { default as project1 } from '../assets/project-2.PNG'
+export { default as project3 } from '../assets/project-3.PNG'
+
 
 
 
