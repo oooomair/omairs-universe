@@ -7,6 +7,7 @@ import Works from './components/Work/Works';
 // import Work from './components/Work/hmm';
 import Skills from './components/Skills/Skills';
 import { planet1, astraunaut } from './const/index';
+import Contact from './components/Contact/Contact';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <About/>
         <Skills/>
         <Works/>
+        <Contact/>
       </div>
     </div>
   );

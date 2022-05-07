@@ -17,6 +17,10 @@ export { default as project2 } from '../assets/project-1.PNG'
 export { default as project22 } from '../assets/project-1(2).PNG'
 export { default as project1 } from '../assets/project-2.PNG'
 export { default as project3 } from '../assets/project-3.PNG'
+export { default as github } from '../assets/github.png'
+export { default as linkedin } from '../assets/linkedin.png'
+export { default as twitter } from '../assets/twitter.png'
+
 
 
 
