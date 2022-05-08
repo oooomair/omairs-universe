@@ -20,6 +20,8 @@ export { default as project3 } from '../assets/project-3.PNG'
 export { default as github } from '../assets/github.png'
 export { default as linkedin } from '../assets/linkedin.png'
 export { default as twitter } from '../assets/twitter.png'
+export { default as link } from '../assets/link.png'
+
 
 
 

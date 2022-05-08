@@ -3,17 +3,23 @@ import { project1, project22, project2, project3 } from '../../const/index';
 const projects = [{
         "name": "O's Food delivery",
         "img": project1,
-        "desc": "lorem ipsum"
+        "desc": "A Food Delivery Ecommerce website with a user friendly UI/UX made using React and SCSS also has its own REST API made using NodeJs and Express, It stores the data on a Mongo Database using mongoose and it also has a very secure authentication API.",
+        "github": "https://github.com/oooomair/ofd",
+        "website": "https://ofdapp.netlify.app/"
     },
     {
         "name": "Hidden",
         "img": project22,
-        "desc": "lorem ipsum"
+        "desc": "A full stack website built using MERN with routing capabilities, a fully functioning mongo database that runs on atlas. you can share your stories to the world and comment on other stories",
+        "github": "https://github.com/oooomair/hidden-app",
+        "website": "https://hiddenapp.netlify.app/"
     },
     {
         "name": "The Kitchen",
         "img": project3,
-        "desc": "lorem ipsum"
+        "desc": "A food blog with recipes taken from the internet that u can make in your kitchen mad using react and a global context",
+        "github": "https://github.com/oooomair/kitchen",
+        "website": "https://thekitchenapp.netlify.app/"
     }]
 
     export default projects

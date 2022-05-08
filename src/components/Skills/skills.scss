@@ -3,8 +3,7 @@
     flex-flow: column;
     align-items: center;
     width: 100%;
-    margin: 100px 0;
-    margin-top: 120px;
+    margin: 75px 0;
 
     h1 {
         font-size: 4rem;
@@ -64,6 +63,12 @@
         span {
             font-size: 1rem;
         }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .skills {
+        margin: 50px 0;
     }
 }
 
