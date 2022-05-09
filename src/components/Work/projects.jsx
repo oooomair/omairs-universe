@@ -17,7 +17,7 @@ const projects = [{
     {
         "name": "The Kitchen",
         "img": project3,
-        "desc": "A food blog with recipes taken from the internet that u can make in your kitchen mad using react and a global context",
+        "desc": "A food blog with recipes taken from the internet that u can make in your kitchen made using react and a global context",
         "github": "https://github.com/oooomair/kitchen",
         "website": "https://thekitchenapp.netlify.app/"
     }]
