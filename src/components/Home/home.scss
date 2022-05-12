@@ -3,19 +3,20 @@
     flex-flow: column;
     width: 90%;
     height: 850px;
-    padding: 70px 0 20px 0;
+    padding: 50px 0 20px 0;
 }
 
 .home__logo {
 span {
     font-size: 2.5rem;
+    color: #2886E5;
 }
 }
 
 .home__title {
     display: flex;
     flex-flow: column;
-    margin: 160px 0 0 0;
+    margin: 150px 0 0 0;
     h1 {
         font-size: 4.5rem;
         width: 600px;
@@ -40,9 +41,9 @@ span {
         cursor: pointer;
         transition: 0.2s ease;
         &:hover {
-            box-shadow: 0 0 1px 1px #dddddd;
+            border: #2886E5 1px solid;
             font-weight: bold;
-            font-size: 1rem;
+            color: #2886E5;
           }
     }
 }

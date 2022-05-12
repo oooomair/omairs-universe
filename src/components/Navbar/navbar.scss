@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: 68px;
+  top: 48px;
   right: 5%;
   border: #ddddddec 1px solid;
   width: 65px;
@@ -68,8 +68,8 @@
   padding: 80px 0 0 0;
   flex-flow: column;
   position: fixed;
-  top: 60px;
-  right: 5%;
+  top: 38px;
+  right: 4.5%;
   background-color: #ddddddfd;
   z-index: 10;
 
@@ -203,7 +203,7 @@
     right: 175px;
   }
   .navbar__list {
-    right: 170px;
+    right: 167px;
   }
 }
 
@@ -212,7 +212,7 @@
     right: 230px;
   }
   .navbar__list {
-    right: 230px;
+    right: 222px;
   }
 }
 
@@ -221,7 +221,7 @@
     right: 285px;
   }
   .navbar__list {
-    right: 280px;
+    right: 277px;
   }
 }
 
@@ -230,7 +230,7 @@
     right: 335px;
   }
   .navbar__list {
-    right: 330px;
+    right: 327px;
   }
 }
 
@@ -239,7 +239,7 @@
     right: 385px;
   }
   .navbar__list {
-    right: 380px;
+    right: 377px;
   }
 }
 
@@ -248,7 +248,7 @@
     right: 435px;
   }
   .navbar__list {
-    right: 430px;
+    right: 427px;
   }
 }
 
@@ -257,7 +257,7 @@
     right: 485px;
   }
   .navbar__list {
-    right: 480px;
+    right: 477px;
   }
 }
 
@@ -266,7 +266,7 @@
     right: 525px;
   }
   .navbar__list {
-    right: 520px;
+    right: 517px;
   }
 }
 
@@ -275,16 +275,7 @@
     right: 565px;
   }
   .navbar__list {
-    right: 560px;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  .navbar__burger {
-    top: 48px;
-  }
-  .navbar__list {
-    top: 40px;
+    right: 557px;
   }
 }
 

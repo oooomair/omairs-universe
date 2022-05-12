@@ -21,6 +21,8 @@ export { default as github } from '../assets/github.png'
 export { default as linkedin } from '../assets/linkedin.png'
 export { default as twitter } from '../assets/twitter.png'
 export { default as link } from '../assets/link.png'
+export { default as resume } from "../assets/Omair's-Resume.pdf"
+export { default as arrow } from "../assets/arrow.png"
 
 
 

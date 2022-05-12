@@ -12,7 +12,7 @@ const Works = () => {
         <h1>Some of My Work</h1>
         <div className="work__projects">
             {projects.map(project => {
-              return <Work project={project}/>
+              return <Work key={project.id} project={project}/>
             })}
         </div>
     </div>

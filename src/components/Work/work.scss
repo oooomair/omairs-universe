@@ -299,7 +299,7 @@
     flex-flow: column;
     align-items: center;
     width: 90%;
-    margin: 100px 0;
+    padding: 100px 0;
     h1 {
         font-size: 4rem;
         margin-bottom: 50px;
@@ -324,7 +324,7 @@
 
     img {
         height: 400px;
-        border-radius: 10px;
+        border-radius: 7px;
         cursor: pointer;
         transition: all 0.4s ease;
     }
@@ -432,7 +432,7 @@
 
 @media screen and (max-width: 1000px) {
     .work {
-        margin: 50px 0;
+        padding: 50px 0;
     }
     .work__projects {
         row-gap: 2.5rem;
@@ -447,7 +447,7 @@
         text-align: center;
         img {
             width: 500px;
-            border-radius: 10px;
+            border-radius: 5px;
             margin-bottom: 20px;
         }
         h2 {
