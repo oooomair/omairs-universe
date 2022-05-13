@@ -11,8 +11,8 @@ const Navbar = ({burger, toggleBurger}) => {
 
     const scrollToSection = divCss => {
       scroller.scrollTo(divCss, {
-        duration: 1000,
-        delay: 1000,
+        duration: 2000,
+        delay: 0,
         smooth: "easeInOutQuart",
       });
     };
