@@ -1,6 +1,6 @@
 import './navbar.scss'
 import { CSSTransition } from 'react-transition-group';
-import { Link } from "react-scroll";
+import { scroller } from "react-scroll";
 import { resume } from '../../const/index'
 
 const Navbar = ({burger, toggleBurger}) => {
@@ -9,13 +9,13 @@ const Navbar = ({burger, toggleBurger}) => {
         toggleBurger()
     }
 
-    // const scrollToSection = divCss => {
-    //   scroller.scrollTo(divCss, {
-    //     duration: 2000,
-    //     delay: 0,
-    //     smooth: "easeInOutQuart",
-    //   });
-    // };
+    const scrollToSection = divCss => {
+      scroller.scrollTo(divCss, {
+        duration: 200,
+        delay: 0,
+        smooth: "easeInOutQuart",
+      });
+    };
 
   return (
     <>
@@ -31,19 +31,17 @@ const Navbar = ({burger, toggleBurger}) => {
           unmountOnExit
         >
           <div className='navbar__list'>
-            <Link to='about' smooth={true} spy={true} offset={0} duration={300}>
             <span onClick={() => {
               onBurgerChange()
-              // scrollToSection('about')
+              scrollToSection('about')
               }}>About</span>
-            </Link>
             <span onClick={() => {
-            onBurgerChange()
-              // scrollToSection('skills')
+              onBurgerChange()
+              scrollToSection('skills')
               }}>Skills</span>
             <span onClick={() => {
               onBurgerChange()
-              // scrollToSection('work')
+              scrollToSection('work')
               }}>Work</span>
             <span onClick={() => {
               onBurgerChange()
@@ -51,7 +49,7 @@ const Navbar = ({burger, toggleBurger}) => {
               }}>Resume</span>
             <span className='navbar__highlight' onClick={() => {
               onBurgerChange()
-              // scrollToSection('contact')
+              scrollToSection('contact')
               }}>Contact</span>
             <div className="navbar__links">
               <span onClick={() => {
