@@ -1,6 +1,7 @@
 export { default as planet1 } from '../assets/planet-3.png'
 export { default as astraunaut } from '../assets/astraunaut.png'
 export { default as me } from '../assets/me.jpeg'
+export { default as me2 } from '../assets/me-2.jpg'
 export { default as css } from '../assets/css-logo.png'
 export { default as expressjs } from '../assets/expressjs-logo.png'
 export { default as html } from '../assets/html-logo.png'
@@ -23,9 +24,6 @@ export { default as twitter } from '../assets/twitter.png'
 export { default as link } from '../assets/link.png'
 export { default as resume } from "../assets/Omair's-Resume.pdf"
 export { default as arrow } from "../assets/arrow.png"
-
-
-
-
-
-
+export { default as musicW } from "../assets/music-white.png"
+export { default as musicB } from "../assets/music-blue.png"
+export { default as spaceMusic } from "../assets/space-music.mp3"

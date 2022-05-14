@@ -77,7 +77,7 @@ const Contact = () => {
             <div className="contact__inputs-1">
                 <div className={`contact__input ${isNameValid ? 'correct-input' : isNameValid === false && 'wrong-input'}`}>
                     <span>Name</span>
-                    <input oninvalid="this.setCustomValidity('Enter User Name Here')" oninput="this.setCustomValidity('')" name='name' required onBlur={() => checkInput('name')} onChange={e => setName(e.target.value)} value={name} placeholder='Omair Salam' type="text" />
+                    <input name='name' required onBlur={() => checkInput('name')} onChange={e => setName(e.target.value)} value={name} placeholder='Omair Salam' type="text" />
                 </div>
                 <div className={`contact__input ${isEmailValid ? 'correct-input' : isEmailValid === false && 'wrong-input'}`}>
                     <span>Email</span>

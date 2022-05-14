@@ -1,6 +1,7 @@
-import React from 'react'
+import {useEffect, useState} from 'react'
 import './home.scss'
 import { scroller } from "react-scroll";
+import { resume } from '../../const/index'
 
 const Home = () => {
 
@@ -12,6 +13,16 @@ const Home = () => {
     });
   };
 
+  window.addEventListener('resize', () => {
+    setWidth(window.innerWidth)
+  })
+
+  const [width, setWidth] = useState('')
+
+  useEffect(() => {
+    setWidth(window.innerWidth)
+  }, [])
+
   return (
     <div className='home'>
       <div className="home__logo">
@@ -20,9 +31,11 @@ const Home = () => {
         <div className="home__title">
         <h1>A Full Stack Developer</h1>
         <p>that strives to create beautiful, functional and responsive web products with great user experience</p>
-        <button onClick={() => {
-              scrollToSection('about')
-              }}>\/</button>
+          {width > 900 ? <button onClick={() => {
+            scrollToSection('about')
+          }}>\/</button>
+              :
+          <button onClick={() => window.open(resume, '_blank')}>My Resume</button>}
         </div>
     </div>
   )

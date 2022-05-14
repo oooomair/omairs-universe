@@ -154,6 +154,34 @@
   }
 }
 
+.navbar__music {
+  position: fixed;
+  top: 120px;
+  right: 5%;
+  height: 60px;
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dddddd;
+  z-index: 9;
+  transition: 0.2s all ease;
+  cursor: pointer;
+  img {
+    height: 75%;
+    width: 75%;
+    transition: 0.2s all ease;
+  }
+  &:hover img {
+    height: 68%;
+    width: 68%;
+  }
+}
+
+.navbar__music-active {
+  border: 1px solid #2886E5;
+}
+
 .nav-enter {
   -webkit-transform: scale(0.5);
   transform: scale(0.5);
@@ -205,6 +233,9 @@
   .navbar__list {
     right: 167px;
   }
+  .navbar__music {
+    right: 175px;
+  }
 }
 
 @media screen and (min-width: 1800px) {
@@ -213,6 +244,9 @@
   }
   .navbar__list {
     right: 222px;
+  }
+  .navbar__music {
+    right: 230px;
   }
 }
 
@@ -223,6 +257,9 @@
   .navbar__list {
     right: 277px;
   }
+  .navbar__music {
+    right: 285px;
+  }
 }
 
 @media screen and (min-width: 2000px) {
@@ -231,6 +268,9 @@
   }
   .navbar__list {
     right: 327px;
+  }
+  .navbar__music {
+    right: 335px;
   }
 }
 
@@ -241,6 +281,9 @@
   .navbar__list {
     right: 377px;
   }
+  .navbar__music {
+    right: 385px;
+  }
 }
 
 @media screen and (min-width: 2200px) {
@@ -249,6 +292,9 @@
   }
   .navbar__list {
     right: 427px;
+  }
+  .navbar__music {
+    right: 435px;
   }
 }
 
@@ -259,6 +305,9 @@
   .navbar__list {
     right: 477px;
   }
+  .navbar__music {
+    right: 485px;
+  }
 }
 
 @media screen and (min-width: 2400px) {
@@ -267,6 +316,9 @@
   }
   .navbar__list {
     right: 517px;
+  }
+  .navbar__music {
+    right: 525px;
   }
 }
 
@@ -277,6 +329,9 @@
   .navbar__list {
     right: 557px;
   }
+  .navbar__music {
+    right: 565px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -285,5 +340,30 @@
   }
   .navbar__list {
     top: 27px;
+  }
+  .navbar__music {
+    top: 107px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navbar__music {
+    top: 35px;
+    img {
+      height: 70%;
+      width: 70%;
+    }
+    &:hover img {
+      height: 70%;
+      width: 70%;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar__music {
+    top: 40px;
+    height: 50px;
+    width: 54px;
   }
 }

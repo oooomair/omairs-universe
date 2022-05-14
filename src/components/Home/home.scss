@@ -67,9 +67,6 @@ span {
         }
         button {
             font-size: 0.8rem;
-            &:hover {
-                font-size: 0.9rem;
-              }
         }
     }
 }
@@ -102,6 +99,16 @@ span {
             margin-top: 15px;
             width: 90%;
             text-align: center;
+        }
+        button {
+            font-size: 1.1rem;
+            border: #2886E5 1px solid;
+            color: #2886E5;
+            &:hover {
+                border: #2886E5 1px solid;
+                font-weight: normal;
+                color: #2886E5;
+              }
         }
     }
 }
