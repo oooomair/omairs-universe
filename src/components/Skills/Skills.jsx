@@ -1,6 +1,6 @@
 import React from 'react'
 import './skills.scss'
-import { html, css, js, sass, react, figma, ts, nodejs, expressjs, mongodb, postgres, git } from '../../const/index'
+import { html, css, js, sass, react, figma, ts, nodejs, expressjs, mongodb, postgres, git, nextjs } from '../../const/index'
 
 const Skills = () => {
   return (
@@ -26,6 +26,10 @@ const Skills = () => {
             <div className="skills__tech">
                 <img src={react} alt="react" />
                 <span>React</span>
+            </div>
+            <div className="skills__tech">
+                <img src={nextjs} alt="react" />
+                <span>NextJs</span>
             </div>
             <div className="skills__tech">
                 <img src={ts} alt="ts" />
